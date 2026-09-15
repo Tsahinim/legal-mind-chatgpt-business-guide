@@ -319,6 +319,10 @@ footer{font-size:.85rem;padding:30px 16px 20px;border-top:1px solid #dfe7e4}
       <div class="sec-body">
         <p class="sec-lead">לפני שלוחצים, כדאי להבין מה בדיוק המיזוג עושה לחשבון האישי שלכם.</p>
         <p>במיזוג, המידע מהחשבון האישי עובר לסביבת <bdi dir="ltr">Business</bdi>, והחשבון האישי נמחק. אחרי שהמיזוג הושלם, החשבון האישי כבר לא מופיע, ונשארת רק סביבת <bdi dir="ltr">Business</bdi>.</p>
+        <div class="callout warn">
+          <span class="callout-label">סיכון שחשוב להכיר לפני המיזוג</span>
+          <p>לפי <bdi dir="ltr">OpenAI</bdi>, אחרי המיזוג המידע האישי הופך לחלק מסביבת <bdi dir="ltr">Business</bdi>. אם בהמשך תעזבו את הסביבה, תוסרו ממנה, או שהסביבה תושבת, תאבדו גם את הגישה למידע שמוזג, והחשבון האישי הקודם לא ישוחזר. זו עוד סיבה לשמור את הגיבוי מחוץ ל-<bdi dir="ltr">ChatGPT</bdi>, ולבדוק את מדיניות המשרד לפני שממזגים.</p>
+        </div>
       </div>
     </section>
 
@@ -331,8 +335,9 @@ footer{font-size:.85rem;padding:30px 16px 20px;border-top:1px solid #dfe7e4}
         <ul class="bullets">
           <li>היסטוריית השיחות <bdi dir="ltr">(Chats)</bdi></li>
           <li><bdi dir="ltr">GPTs</bdi> שיצרתם (שימו לב: <bdi dir="ltr">OpenAI</bdi> מתכננת לסגור אותם ולהעביר את העבודה ל-<bdi dir="ltr">Plugins</bdi>, ראו מדריך 1 סעיף 6)</li>
-          <li>הזיכרון <bdi dir="ltr">(Memory)</bdi></li>
+          <li>הזיכרון <bdi dir="ltr">(Memory)</bdi>. אם ה-<bdi dir="ltr">Owner</bdi> כיבה את <bdi dir="ltr">Memory</bdi> לכל הסביבה, הזיכרונות השמורים נמחקים.</li>
         </ul>
+        <p><bdi dir="ltr">OpenAI</bdi> לא מפרטת בדף המיזוג מה קורה ל-<bdi dir="ltr">Projects</bdi> ולקבצים שבהם. לכן הגיבוי של קבצי הפרויקטים (מדריך 1, סעיף 6) חשוב, ובבדיקות שאחרי המיזוג בודקים אם הם הופיעו.</p>
         <p>קראו בעיון כל חלון שמופיע בתהליך המיזוג, לפני כל לחיצה. הממשק והתיעוד עשויים להשתנות.</p>
       </div>
     </section>
@@ -344,6 +349,9 @@ footer{font-size:.85rem;padding:30px 16px 20px;border-top:1px solid #dfe7e4}
         <p class="sec-lead">וזה מה שלא עובר. בגלל הרשימה הזו גיבינו ושמרנו דברים במדריך 1.</p>
         <ul class="bullets">
           <li><bdi dir="ltr">Custom instructions</bdi></li>
+          <li><bdi dir="ltr">Plugins</bdi></li>
+          <li><bdi dir="ltr">ChatGPT Sites</bdi> אינם נכללים במיזוג, וייתכן שתאבדו את האפשרות לערוך ולנהל אותם.</li>
+          <li>דומיין מאומת בפרופיל הבונה של ה-<bdi dir="ltr">GPTs</bdi> צריך אימות מחדש בסביבת <bdi dir="ltr">Business</bdi>.</li>
         </ul>
         <p>בנוסף, <bdi dir="ltr">OpenAI</bdi> מזהירה שבמקרים נדירים שיחות ארוכות או ישנות עלולות לא להיות זמינות אחרי המיזוג.</p>
       </div>
@@ -360,6 +368,7 @@ footer{font-size:.85rem;padding:30px 16px 20px;border-top:1px solid #dfe7e4}
           <ul class="bullets">
             <li><bdi dir="ltr">Export</bdi> הורד ונפתח.</li>
             <li><bdi dir="ltr">Custom instructions</bdi> הועתקו.</li>
+            <li><bdi dir="ltr">Plugins</bdi> ו-<bdi dir="ltr">ChatGPT Sites</bdi> תועדו.</li>
             <li>אתם מבינים שהחשבון האישי יימחק.</li>
             <li>אתם מבינים שאי אפשר להעביר את המידע בחזרה.</li>
           </ul>
@@ -405,13 +414,37 @@ footer{font-size:.85rem;padding:30px 16px 20px;border-top:1px solid #dfe7e4}
       <h2>בדיקת הקבצים אחרי המיזוג</h2>
       <div class="sec-body">
         <p class="sec-lead">כאן תלמדו לבדוק שהקבצים שהעליתם חזרו תקינים, ולא רק שהשמות שלהם מופיעים.</p>
-        <p>לפני המיזוג שמרתם במחשב את הקבצים החשובים (מדריך 1, סעיף 6). עכשיו משתמשים בהם כדי לבדוק:</p>
-        <ul class="checklist">
-          <li>פתחו שיחה שבה העליתם מסמך, ובדקו שהמסמך מופיע בה.</li>
-          <li>פתחו פרויקט חשוב, ובדקו שהקבצים מופיעים ברשימת המקורות שלו.</li>
-          <li>הורידו קובץ אחד, פתחו אותו והשוו לעותק ששמרתם בגיבוי.</li>
+        <p>עד כאן בדקתם שהשיחות הגיעו. עכשיו בודקים את הקבצים עצמם, וזו בדיקה נפרדת. לפני המיזוג שמרתם במחשב את הקבצים החשובים (מדריך 1, סעיף 6), ועכשיו משתמשים בהם.</p>
+        <h3 class="h2">שלב א: בוחרים ארבעה קבצים לבדיקה</h3>
+        <p>אין צורך לעבור על הכול. בחרו קובץ אחד מכל סוג, ועדיף מהמורכבים שיש לכם:</p>
+        <ul class="bullets">
+          <li>מסמך <bdi dir="ltr">Word</bdi>, רצוי כזה שיש בו טבלה או הערות שוליים.</li>
+          <li>קובץ <bdi dir="ltr">PDF</bdi>, רצוי סרוק או חתום.</li>
+          <li>תמונה, למשל צילום מסך או מסמך מצולם.</li>
+          <li>קובץ כבד או ארוך במיוחד, מכל סוג.</li>
         </ul>
-        <p>אם קובץ חסר או לא נפתח, העלו אותו מחדש מהעותק שבגיבוי.</p>
+        <h3 class="h2">שלב ב: מורידים ופותחים מחוץ ל-<bdi dir="ltr">ChatGPT</bdi></h3>
+        <p>הורידו כל קובץ למחשב, ופתחו אותו בתוכנה שבה אתם עובדים איתו בדרך כלל: <bdi dir="ltr">Word</bdi> למסמך, קורא <bdi dir="ltr">PDF</bdi> לקובץ <bdi dir="ltr">PDF</bdi>. אל תסתפקו בתצוגה שבתוך <bdi dir="ltr">ChatGPT</bdi>. הניחו לצידו את הקובץ המקורי מהגיבוי, והשוו ביניהם.</p>
+        <h3 class="h2">שלב ג: מה בדיוק משווים</h3>
+        <div class="tbl-wrap">
+          <table class="tbl">
+            <thead><tr><th>מה בודקים</th><th>מה מחפשים</th></tr></thead>
+            <tbody>
+              <tr><td>הפורמט של הקובץ</td><td>האם הקובץ נשאר <bdi dir="ltr">DOCX</bdi> או <bdi dir="ltr">PDF</bdi> כפי שהועלה.</td></tr>
+              <tr><td>טבלאות</td><td>האם השורות והעמודות נשמרו, או שהתוכן נמרח לשורה אחת רציפה.</td></tr>
+              <tr><td>הערות שוליים</td><td>האם הן קיימות, והאם המספור שלהן עדיין מצביע למקום הנכון.</td></tr>
+              <tr><td>עימוד ומספור עמודים</td><td>האם מספר העמודים זהה למקור. שינוי בעימוד משנה כל הפניה לעמוד.</td></tr>
+              <tr><td>נספחים וחתימות</td><td>האם הם נמצאים בקובץ, ובעיקר בקובצי <bdi dir="ltr">PDF</bdi> סרוקים.</td></tr>
+              <tr><td>עברית ואנגלית באותו מסמך</td><td>האם שורות מעורבות התהפכו או התפרקו.</td></tr>
+              <tr><td><bdi dir="ltr">Track Changes</bdi></td><td>רק כשהוא מהותי למסמך: האם השינויים וההערות עדיין שם.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>ואם עבדתם עם <bdi dir="ltr">Projects</bdi>: בדקו אם הפרויקטים והקבצים שבהם מופיעים בסביבת <bdi dir="ltr">Business</bdi>. אם פרויקט או קובץ חסר, הקימו אותו מחדש והעלו את הקבצים מהגיבוי.</p>
+        <div class="callout warn">
+          <span class="callout-label">אם מצאתם פער</span>
+          <p>אל תתקנו בתוך <bdi dir="ltr">ChatGPT</bdi>. הקובץ התקין נמצא בגיבוי שהכנתם לפני המעבר. העלו אותו מחדש מהגיבוי, ורשמו את המקרה. אם הוא חוזר על עצמו בסוג מסוים של קבצים, כדאי לדעת זאת לפני שממשיכים.</p>
+        </div>
       </div>
     </section>
 
@@ -433,6 +466,7 @@ footer{font-size:.85rem;padding:30px 16px 20px;border-top:1px solid #dfe7e4}
           <li>ודאו שההנחיות נשמרו.</li>
           <li>הריצו משימת ניסיון מוכרת.</li>
         </ul>
+        <p>ואם השתמשתם ב-<bdi dir="ltr">Plugins</bdi> בחשבון האישי: התקינו מחדש בסביבת <bdi dir="ltr">Business</bdi>, מתוך ספריית ה-<bdi dir="ltr">Plugins</bdi>, רק את אלה שהמשרד מאשר.</p>
         <div class="callout warn">
           <span class="callout-label">הסתייגות חשובה</span>
           <p>הגיבוי משמר את ההנחיות והקבצים. <bdi dir="ltr">OAuth</bdi>, סיסמאות, <bdi dir="ltr">API keys</bdi>, הרשאות ארגוניות, <bdi dir="ltr">Apps</bdi> ותוכנות חיצוניות עשויים לדרוש הגדרה מחדש.</p>
@@ -507,8 +541,10 @@ footer{font-size:.85rem;padding:30px 16px 20px;border-top:1px solid #dfe7e4}
           <li><bdi dir="ltr">Business</bdi> היא הסביבה היחידה שמופיעה.</li>
           <li>שיחות ישנות נפתחו.</li>
           <li><bdi dir="ltr">GPTs</bdi> נבדקו.</li>
+          <li>קבצים הורדו והושוו לגיבוי.</li>
           <li><bdi dir="ltr">Memory</bdi> נבדקה.</li>
           <li><bdi dir="ltr">Custom instructions</bdi> הודבקו מחדש ונבדקו.</li>
+          <li><bdi dir="ltr">Plugins</bdi> הותקנו מחדש לפי מדיניות, אם היו.</li>
           <li><bdi dir="ltr">Apps</bdi> חוברו מחדש לפי מדיניות.</li>
           <li>החיוב הישן הופסק.</li>
           <li>קיים נוהל עזיבת משתמשים.</li>
