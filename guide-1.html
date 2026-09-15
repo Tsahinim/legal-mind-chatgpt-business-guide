@@ -244,6 +244,9 @@ footer{font-size:.85rem;padding:30px 16px 20px;border-top:1px solid #dfe7e4}
 .companion-btn[data-copied="true"]{background:var(--green)}
 .companion-btn[data-copied="false"]{background:var(--red)}
 .companion-note{margin:0!important;color:var(--muted);font-size:14px}
+.companion-howto{margin-top:12px;border-top:1px solid #bcdcd8;padding-top:10px}
+.companion-howto summary{cursor:pointer;color:var(--teal);font-weight:800}
+.companion-howto figure{background:#fff}
 .companion-source{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 </style>
 </head>
@@ -273,6 +276,20 @@ footer{font-size:.85rem;padding:30px 16px 20px;border-top:1px solid #dfe7e4}
 <p>אפשר לקרוא את המדריך בעצמכם, אפשר לעבור עליו עם <bdi dir="ltr">ChatGPT</bdi>, ואפשר לשלב. כל אחד בוחר את הדרך שמתאימה לו.</p>
 <button type="button" class="companion-btn" id="copyCompanionBtn">להעתקת הפרומפט ל-<bdi dir="ltr">ChatGPT</bdi> לחצו כאן</button>
 <p class="companion-note">הפרומפט ארוך, ולכן אחרי ההדבקה <bdi dir="ltr">ChatGPT</bdi> עשוי להציג אותו כקובץ מצורף מעל תיבת ההודעה. זה תקין. המעבר נמשך בדרך כלל יותר מיום אחד. כשרוצים להפסיק ולהמשיך בפעם אחרת, כותבים ל-<bdi dir="ltr">ChatGPT</bdi> שעוצרים, והוא ייתן סיכום קצר של מה שכבר נעשה ומה נשאר. כשחוזרים, פותחים שיחה חדשה, מדביקים שוב את הפרומפט ואת הסיכום, ו-<bdi dir="ltr">ChatGPT</bdi> ממשיך מאותה נקודה.</p>
+<details class="companion-howto">
+<summary>איך מורידים את קובץ מפת הדרכים ש-<bdi dir="ltr">ChatGPT</bdi> מפיק?</summary>
+<p>כשהקובץ מופיע בשיחה, לוחצים על כפתור ההגדלה בפינת התצוגה. במסך שנפתח לוחצים על כפתור ההורדה בפינה הימנית העליונה, והקובץ יורד כקובץ <bdi dir="ltr">HTML</bdi> לתיקיית ההורדות. אפשר לפתוח אותו בדפדפן ולשמור אותו בתיק המשרד.</p>
+        <figure>
+          <div class="shot-frame"><img class="shot-real" src="img/cg1-12-roadmap-expand.png?v=20260915a" alt="קובץ מפת הדרכים בתוך השיחה, עם כפתור ההגדלה"></div>
+          <figcaption>הקובץ בתוך השיחה</figcaption>
+        </figure>
+        <ul class="shot-legend"><li><b>1 </b><span>כפתור ההגדלה: פותח את הקובץ בתצוגה מלאה.</span></li></ul>
+        <figure>
+          <div class="shot-frame"><img class="shot-real" src="img/cg1-13-roadmap-download.png?v=20260915a" alt="מפת הדרכים בתצוגה מלאה, עם כפתור ההורדה"></div>
+          <figcaption>הקובץ בתצוגה מלאה</figcaption>
+        </figure>
+        <ul class="shot-legend"><li><b>1 </b><span>כפתור ההורדה: מוריד את הקובץ כקובץ <bdi dir="ltr">HTML</bdi> לתיקיית ההורדות.</span></li></ul>
+</details>
 </div>
 <textarea id="companion-source" class="companion-source" readonly aria-hidden="true" tabindex="-1">
 &lt;guide&gt;
