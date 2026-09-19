@@ -283,12 +283,12 @@ footer{font-size:.85rem;padding:30px 16px 20px;border-top:1px solid #dfe7e4}
 <summary>איך מורידים את קובץ מפת הדרכים ש-<bdi dir="ltr">ChatGPT</bdi> מפיק?</summary>
 <p>כשהקובץ מופיע בשיחה, לוחצים על כפתור ההגדלה בפינת התצוגה. במסך שנפתח לוחצים על כפתור ההורדה בפינה הימנית העליונה, והקובץ יורד כקובץ <bdi dir="ltr">HTML</bdi> לתיקיית ההורדות. אפשר לפתוח אותו בדפדפן ולשמור אותו בתיק המשרד.</p>
         <figure>
-          <div class="shot-frame"><img class="shot-real" src="img/cg1-12-roadmap-expand.png?v=20260915d" alt="קובץ מפת הדרכים בתוך השיחה, עם כפתור ההגדלה"></div>
+          <div class="shot-frame"><img class="shot-real" src="img/cg1-12-roadmap-expand.png?v=20260919a" alt="קובץ מפת הדרכים בתוך השיחה, עם כפתור ההגדלה"></div>
           <figcaption>הקובץ בתוך השיחה</figcaption>
         </figure>
         <ul class="shot-legend"><li><b>1 </b><span>כפתור ההגדלה: פותח את הקובץ בתצוגה מלאה.</span></li></ul>
         <figure>
-          <div class="shot-frame"><img class="shot-real" src="img/cg1-13-roadmap-download.png?v=20260915d" alt="מפת הדרכים בתצוגה מלאה, עם כפתור ההורדה"></div>
+          <div class="shot-frame"><img class="shot-real" src="img/cg1-13-roadmap-download.png?v=20260919a" alt="מפת הדרכים בתצוגה מלאה, עם כפתור ההורדה"></div>
           <figcaption>הקובץ בתצוגה מלאה</figcaption>
         </figure>
         <ul class="shot-legend"><li><b>1 </b><span>כפתור ההורדה: מוריד את הקובץ כקובץ <bdi dir="ltr">HTML</bdi> לתיקיית ההורדות.</span></li></ul>
@@ -296,7 +296,7 @@ footer{font-size:.85rem;padding:30px 16px 20px;border-top:1px solid #dfe7e4}
 </div>
 <textarea id="companion-source" class="companion-source" readonly aria-hidden="true" tabindex="-1">
 &lt;guide&gt;
-להלן התוכן המלא של המדריך של Legal Mind למעבר בטוח למנוי ChatGPT Business, בגרסה מיום 17.9.2026: מדריך 1, מדריך 2, מדריך 3 והצ'קליסט.
+להלן התוכן המלא של המדריך של Legal Mind למעבר בטוח למנוי ChatGPT Business, בגרסה מיום 19.9.2026: מדריך 1, מדריך 2, מדריך 3 והצ'קליסט.
 
 ===== מדריך 1 =====
 מדריך 1 מתוך 3
@@ -343,17 +343,162 @@ DPA (Data Processing Addendum) הוא נספח חוזי המעגן את התחי
 הנוסח המקורי באנגלית:
 "This OpenAI Data Processing Addendum ("DPA") supplements, and is incorporated into, the OpenAI Services Agreement... By clicking "I agree," accepting the Order Form, or using the Services, Customer agrees to this Agreement."
 
-OpenAI מציעה גם טופס לחתימה על DPA ללקוחות ChatGPT Business.
+ב-DPA עצמו OpenAI מגדירה את התפקידים: היא Data Processor, כלומר מי שמעבד את המידע בשבילכם ולפי ההוראות שלכם, והמשרד הוא הלקוח שקובע מה מזינים ולמה. שימו לב לשלוש התחייבויות שחשובות במיוחד למשרד: הודעה על אירוע אבטחה "ללא דיחוי בלתי סביר" (סעיף 2.7), החזרה או מחיקה של המידע בסיום ההסכם לפי הוראת הלקוח (סעיף 2.11), ואחריות של הלקוח עצמו להגדרות כמו תקופות שמירה ומחיקה (סעיף 3.3).
 
 ראו את נוסח ה-DPA המלא באתר OpenAI (https://openai.com/policies/data-processing-addendum/). הסבר זה אינו תחליף לקריאת נוסח ה-DPA המלא.
 
+### האם צריך לחתום, או שזה חל ממילא?
+
+שני הדברים נכונים, וכדאי להבין את ההבדל. לפי הנוסח שציטטנו למעלה, ה-DPA חל על המשרד כבר מרגע השימוש בשירות. אבל OpenAI מציעה בנוסף טופס שבו "מבצעים" (Execute) את ה-DPA, ובדף הפרטיות העסקית שלה היא כותבת במפורש שהטופס מיועד גם ללקוחות ChatGPT Business:
+"כן, אנחנו יכולים לבצע נספח עיבוד נתונים (DPA) עם לקוחות עבור השימוש שלהם ב-ChatGPT Business, ב-ChatGPT Enterprise וב-API, לתמיכה בעמידתם ב-GDPR ובחוקי פרטיות אחרים. אנא מלאו את טופס ה-DPA שלנו כדי לבצע DPA עם OpenAI."
+
+הנוסח המקורי באנגלית:
+"Yes, we are able to execute a Data Processing Addendum (DPA) with customers for their use of ChatGPT Business, ChatGPT Enterprise, and the API in support of their compliance with GDPR and other privacy laws. Please complete our DPA form to execute a DPA with OpenAI."
+
+מקור: Enterprise privacy at OpenAI (https://openai.com/enterprise-privacy/).
+
+עמדת Legal Mind: ממלאים את הטופס. OpenAI לא מסבירה מה ההבדל המעשי בין DPA שחל מכוח השימוש לבין DPA שבוצע בטופס, ולכן אנחנו לא נטען דבר על ההבדל הזה. אבל משרד שמילא את הטופס מחזיק עותק חתום, על שם המשרד, עם תאריך ועם שם החותם. זה המסמך שמראים ללקוח, למבקר או לרשות כשנשאלים "על סמך מה מסרתם מידע לספק חיצוני".
+
+### איך חותמים בפועל, צעד אחרי צעד
+
+בתחתית דף ה-DPA (https://openai.com/policies/data-processing-addendum/) יש קישור בשם Execute Data Processing Agreement. הוא מוביל לטופס מקוון שמתארח בשירות חתימות חיצוני בשם Ironclad, שבו OpenAI משתמשת. אל תיבהלו מהכתובת השונה: זה הטופס שאליו OpenAI עצמה מקשרת משני הדפים הרשמיים שלה. אין צורך להתחבר לחשבון ChatGPT כדי לפתוח אותו, אבל צריך את פרטי המשרד.
+
+(צילום מסך במדריך: הטופס Data Processing Addendum, החלק העליון)
+
+סימון 1: פסקת "Note that this agreement is only applicable": הטופס חל רק על המוצרים העסקיים. שימו לב שכתוב בו עדיין ChatGPT Team, השם הישן של Business (השם שונה ב-29 באוגוסט 2025, לפי OpenAI). זה אותו מוצר.
+סימון 2: פסקת "Unfortunately, we are unable": OpenAI מודיעה שאינה בוחנת ואינה חותמת על נוסחי DPA של לקוחות, ואינה מתאימה את הנוסח שלה פרטנית. על זה בהמשך.
+סימון 3: What is your company's full, legal name?: השם המשפטי המלא של המשרד, כפי שהוא רשום, ולא שם המותג.
+סימון 4: Country: בוחרים Israel. שדות הכתובת שמעליו ממולאים בכתובת המשרד.
+
+(צילום מסך במדריך: הטופס Data Processing Addendum, החלק התחתון)
+
+סימון 1: What is your Organization ID?: הטופס אומר שהמזהה נמצא ב"Organization settings page". OpenAI לא מתעדת איפה מוצאים אותו בסביבת Business דווקא, ולכן אם לא מצאתם אותו בהגדרות הסביבה, פונים לתמיכה של OpenAI לפני השליחה, ולא ממציאים.
+סימון 2: Is Customer based in the European Economic Area or Switzerland?: משרד ישראלי מסמן No. המשמעות לפי ה-DPA: הצד החוזי שלכם הוא OpenAI OpCo, LLC האמריקאית, ולא OpenAI Ireland Ltd.
+סימון 3: Who will be signing this agreement on behalf of your company?: שם של אדם שמוסמך לחייב את המשרד. ה-DPA כולל הצהרה שלחותם יש סמכות משפטית לחייב את הישות שבשמה הוא חותם.
+סימון 4: What is the signer's email address?: לכתובת הזו תישלח בקשה לעיין בהסכם ולאשר אותו. כדאי שזו תהיה כתובת של המשרד ולא כתובת פרטית.
+סימון 5: Submit: שולח את הטופס. לפי הטופס עצמו, ההסכם מחייב רק אחרי שהחותם עיין בו ואישר אותו.
+
+מה קורה אחרי Submit? הטופס עצמו מסביר:
+"אחרי שתשלחו את הטופס, תוכלו לעיין בהסכם לפני שתקבלו או תדחו את התנאים. בקשה לעיין בהסכם תישלח גם לכתובת המייל של החותם שמסרתם. ההסכם ייחשב מחייב מבחינה משפטית רק אחרי שקיבלתם את התנאים."
+
+הנוסח המקורי באנגלית:
+"Once you submit this form, you will have the opportunity to review the agreement before accepting or rejecting the terms. A request to review the agreement will also be sent to the signer email address you provided. The agreement will only be considered legally binding after you accepted the terms."
+
+אחרי האישור שומרים את העותק החתום בתיק הספקים של המשרד, לצד תאריך החתימה. זה חלק מהתיעוד שהדין הישראלי מצפה ממשרד שמסר מידע לספק חיצוני (ראו בהמשך).
+
+### אפשר לשנות את הנוסח? לא.
+
+זו נקודה שעורכי דין שואלים עליה ראשונה, והתשובה כתובה בטופס עצמו, במילים של OpenAI:
+"לצערנו, אין באפשרותנו לבחון או לחתום על נוסחי DPA שמסופקים על ידי לקוחותינו, או להתאים את ה-DPA שלנו באופן פרטני."
+
+הנוסח המקורי באנגלית:
+"Unfortunately, we are unable to review or sign DPAs provided by our customers or customize our DPA on a case by case basis."
+
+כלומר: לא שולחים ל-OpenAI את נוסח ה-DPA של המשרד, ולא מבקשים לתקן סעיף. חותמים על הנוסח שלהם או לא חותמים. מה קורה במסלול Enterprise מול מחלקת המכירות: המקורות הרשמיים שבדקנו לא אומרים, ולכן לא נכתוב על זה. המדריך הזה עוסק ב-Business.
+
 ### אימון מודלים
 
-כברירת מחדל, OpenAI לא משתמשת במידע של סביבת Business לאימון המודלים.
+כברירת מחדל, OpenAI לא משתמשת במידע של סביבת Business לאימון המודלים. הנה הנוסח המלא, כולל החריג היחיד:
+"כברירת מחדל, אנחנו לא משתמשים במידע העסקי שלכם לאימון המודלים שלנו. אם בחרתם במפורש לשתף אתנו את המידע שלכם (למשל, דרך מנגנוני המשוב שדורשים הצטרפות מרצון) כדי לשפר את השירותים שלנו, אז אנחנו עשויים להשתמש במידע ששותף לאימון המודלים שלנו."
+
+הנוסח המקורי באנגלית:
+"By default, we do not use your business data for training our models. If you have explicitly opted in to share your data with us (for example, through our opt-in feedback mechanisms) to improve our services, then we may use the shared data to train our models."
+
+מקור: Enterprise privacy at OpenAI (https://openai.com/enterprise-privacy/). ובמרכז העזרה, בדף על פרטיות ב-Business: "OpenAI won't train on your workspace's data."
+
+מה עם כפתורי המשוב (אגודל למעלה או למטה) ליד תשובה? בחשבונות פרטיים OpenAI מתעדת שמשוב כזה יכול להעביר את כל השיחה לאימון, גם אחרי שביקשתם שלא יאמנו עליכם. לסביבת Business אין תיעוד כזה, ולכן אנחנו לא טוענים שזה קורה שם. עמדת Legal Mind פשוטה: על שיחה שיש בה חומר של לקוח לא לוחצים על כפתורי משוב, ולא משנה באיזה מנוי.
+
+### כמה זמן השיחות נשמרות, ומי שולט בזה
+
+מה שברור: שיחה שמשתמש מחק נעלמת מהחשבון מיד, ונמחקת ממערכות OpenAI תוך 30 יום, אלא אם החוק דורש לשמור אותה יותר או שהשמירה נדרשת להגנה על השירות. ומה שברור פחות: האם מנהל סביבת Business יכול לקבוע בעצמו כמה זמן שיחות נשמרות. כאן המקורות של OpenAI סותרים זה את זה.
+
+### סתירה במקורות של OpenAI, Legal Mind מבררת
+
+בדף Enterprise privacy at OpenAI, בשאלות על ChatGPT Business, כתוב: "Your workspace admins can control how long your data is retained." (מנהלי הסביבה שלכם יכולים לשלוט בכמה זמן המידע נשמר).
+
+באותו דף, ברשימת ההתחייבויות שבראשו, שליטה בזמן השמירה נמנית רק לשלושה מוצרים: "You control how long your data is retained (ChatGPT Enterprise, ChatGPT for Healthcare, ChatGPT Edu)". Business לא ברשימה.
+
+ובמרכז העזרה, בדף על שמירת מידע כשמשתמש מוסר מהסביבה, כתוב שב-Business "Chats, files, and canvas documents are retained indefinitely" (נשמרים ללא הגבלת זמן), בזמן שמדיניות שמירה מוגדרת (90 או 180 יום) מוזכרת רק ל-Enterprise ול-Edu.
+
+לכן אנחנו לא כותבים לכם "תקצרו את זמן השמירה בהגדרות", כי לא מצאנו הוראה כזו במקור רשמי. Legal Mind פנתה לבירור. עד שתהיה תשובה, מה שבידיכם ודאי: כל משתמש יכול למחוק שיחות בעצמו, והמחיקה מהמערכות מתבצעת תוך 30 יום.
+
+ומי יכול לראות שיחות בסביבת Business? לפי OpenAI: המשתמש עצמו; מנהלי הסביבה, שיכולים לצפות בשיחות של המשתמשים ולמחוק אותן; עובדי OpenAI מורשים, לצורך תמיכה טכנית, חקירת שימוש לרעה ועמידה בדין; וקבלנים חיצוניים שכפופים לסודיות, אך ורק לבדיקת שימוש לרעה. בנוסף, כל מידע עסקי עשוי לעבור במסננים אוטומטיים של בטיחות. גם כאן יש נקודה שבבירור: הדף העסקי אומר שמנהלי Business יכולים גם לייצא שיחות (export), ומרכז העזרה אומר שאין ייצוא נתונים בסביבת Business. במדריך הזה אנחנו הולכים לפי מרכז העזרה, ומגבים לפני המעבר (מדריך 1, סעיף 5).
+
+### ZDR: לא רלוונטי ל-Business
+
+בשוק נפוצה האמירה ש"אפשר לבקש מ-OpenAI אפס שמירת נתונים". צריך לדייק. מדיניות Zero Data Retention (ZDR) מתועדת אצל OpenAI בהקשר של ה-API, כלומר שימוש דרך ממשק למתכנתים, לנקודות קצה זכאיות ולמקרה שימוש מתאים. ובדף על Business במרכז העזרה כתוב במפורש:
+"אם אתם צריכים חיוב בחשבונית, הזמנות רכש, העברה בנקאית, ... Zero Data Retention, BAA או אפשרויות אחרות דרך מחלקת המכירות, השתמשו במסלול חוזי במקום ב-ChatGPT Business בהרשמה עצמית."
+
+הנוסח המקורי באנגלית:
+"If you need invoice billing, purchase orders, bank transfer, wire, ACH, net terms, split payments, Zero Data Retention, BAAs, or other sales-led options, use a contracted offering instead of self-serve ChatGPT Business."
+
+מקור: ChatGPT Business, Overview (https://help.openai.com/en/articles/8792828-chatgpt-business-overview). המסקנה למשרד: במנוי Business אין ZDR, ואל תסתמכו על מי שמבטיח אחרת.
+
+### העברת מידע לחו"ל, קבלני משנה ואחסון גאוגרפי
+
+המידע שאתם מזינים יוצא מישראל. זה לא סוד, וזה מה שהדין הישראלי דורש להסדיר (ראו בהמשך). מה ה-DPA אומר על זה?
+
+- הצד החוזי: ללקוח שאינו באזור הכלכלי האירופי או בשווייץ, ובכלל זה משרד ישראלי, הצד החוזי הוא OpenAI OpCo, LLC, חברה אמריקאית. הסכם השירותים כפוף לדין קליפורניה.
+
+- תניות חוזיות סטנדרטיות (SCCs): ה-DPA מחיל אותן על מידע אירופי ושווייצרי (סעיף 4.1) ועל מידע בריטי (סעיף 4.2). על מידע של לקוח ישראלי ה-DPA לא מחיל תניות כאלה. זו נקודה שהמשרד צריך לקחת בחשבון כשהוא בוחן את בסיס ההעברה לפי הדין הישראלי.
+
+- קבלני משנה: OpenAI מפרסמת רשימת קבלני משנה (https://platform.openai.com/subprocessors) (נכון לבדיקתנו, עודכנה ב-9 ביולי 2026). לצד ChatGPT Business מופיעים, בין היתר, ספקי ענן כמו Microsoft, Google Cloud, Amazon Web Services ו-Oracle, במדינות רבות, וספקי תמיכה ומודרציה, בהם TaskUs בפיליפינים. לפי ה-DPA (סעיף 2.9), OpenAI מודיעה על שינוי ברשימה בפוסט בבלוג, בהודעה בתוך השירות, או במייל למי שנרשם לעדכונים בדף הרשימה, ולמשרד יש 30 יום להתנגד. המלצת Legal Mind: מי שאחראי במשרד נרשם לעדכונים במייל, כי אחרת לא תדעו על שינוי.
+
+- אחסון גאוגרפי (Data residency): לפי מרכז העזרה, ChatGPT Business מאפשר לבחור איפה יישמר תוכן הסביבה, אבל האפשרות "מופצת בהדרגה ועדיין לא זמינה לכל הלקוחות", והבחירה נעשית רק בזמן הרכישה (checkout). גם כשבוחרים אזור מחוץ לארה"ב, יומני הניטור נשמרים בארה"ב, ועותק זמני של כל שיחה נשמר בארה"ב לצורכי בטיחות. האזור גם לא קובע איפה מתבצע העיבוד עצמו. אילו אזורים מוצעים, ואם ישראל ביניהם: לא מתועד, ולכן בודקים במסך הרכישה. המשמעות המעשית: את ההחלטה על אחסון גאוגרפי מקבלים לפני שלוחצים על רכישה במדריך 2, ולא אחרי. מקור: Where your ChatGPT Business content is stored (https://help.openai.com/en/articles/20001418-where-your-chatgpt-business-content-is-stored).
+
+### מה לא מקבלים ב-Business
+
+מדריך הגון אומר גם מה אין. אלה יכולות שלפי OpenAI שמורות למסלולים חוזיים, בעיקר Enterprise:
+
+מה חסר ב-Business | מה OpenAI כותבת |
+
+Compliance API ויומן ביקורת של שיחות | "The Compliance Platform is available to ChatGPT Enterprise and Edu workspaces." |
+
+מדיניות שמירה בזמן קצוב (למשל 90 או 180 יום) | מתועדת ל-Enterprise ול-Edu; ב-Business שיחות של משתמש שהוסר נשמרות ללא הגבלה (ראו הסתירה למעלה) |
+
+כיבוי גורף של קישורי שיתוף לכל הסביבה | "Can I disable shared links entirely? No. This feature is available in ChatGPT Enterprise." |
+
+ייצוא נתונים עצמי מהסביבה | "Self-service data export is not available in ChatGPT Business workspaces." |
+
+ZDR, BAA, חיוב בחשבונית, הזמנת רכש | "use a contracted offering instead of self-serve ChatGPT Business" |
+
+מקורות: OpenAI Compliance Platform (https://help.openai.com/en/articles/9261474-compliance-api-for-enterprise-customers), Managing data, sharing, and privacy in ChatGPT Business (https://help.openai.com/en/articles/8798634-managing-data-sharing-and-privacy-in-chatgpt-business), ChatGPT Business: General FAQ (https://help.openai.com/en/articles/8542115-chatgpt-business-general-faq).
+
+### ההתאמה לדין הישראלי: מה ה-DPA לא עושה בשבילכם
+
+טיוטה: ממתיןנוסח הסעיף הזה נמסר לאישור המערכת המשפטית של Legal Mind. עד האישור הוא טיוטה.
+
+חתימה על DPA היא תנאי, לא פתרון. הנספח מסדיר את ההתחייבויות של OpenAI כלפיכם. את החובות של המשרד עצמו לפי חוק הגנת הפרטיות הוא לא מקיים בשבילכם. הסבר זה כללי ואינו ייעוץ משפטי; המקורות הם פרסומי הרשות להגנת הפרטיות (https://www.gov.il/he/pages/tikun13_qa).
+
+- מי אתם ומי OpenAI לפי תיקון 13. תיקון 13 לחוק הגנת הפרטיות, שבתוקף מאז אוגוסט 2025, מגדיר "בעל שליטה במאגר מידע" כ"מי שקובע, לבדו או יחד עם אחר, את מטרות עיבוד המידע שבמאגר המידע". זה המשרד. "מחזיק" הוא "גורם חיצוני לבעל השליטה במאגר מידע המעבד מידע עבורו". זו OpenAI. ו"עיבוד" כולל במפורש "העברתו, מסירתו או מתן גישה אליו", כלומר גם הדבקת מסמך בשיחה.
+
+- מידע בעל רגישות מיוחדת. ההגדרה החדשה כוללת, בין היתר, "מידע שחלה עליו חובת סודיות שנקבעה בדין", לצד מידע על בריאות, עבר פלילי, פעילות פיננסית וצנעת המשפחה. חלק ניכר ממה שמשרד עורכי דין מטפל בו נופל בקטגוריות האלה, ולכן כללי הזהירות במדריך הזה (טשטוש והשמטה של פרטים מזהים לפני העלאה) אינם המלצה בלבד.
+
+- תקנה 15 לתקנות אבטחת מידע. התקנה מסדירה התקשרות של ארגון עם "כל גורם חיצוני ... המספק לארגון שירות הכרוך במתן גישה למאגר המידע שלו". הרשות פרסמה מדריך פעולה (https://www.gov.il/he/pages/guide_section_15) שמפרט מה חייב להיכלל בהסכם עם הספק, שאלון לבדיקת הספק לפני ההתקשרות, ושאלון לבקרה תקופתית. ה-DPA של OpenAI אינו ניתן לשינוי, ולכן העבודה של המשרד היא לבדוק אם הנוסח הקיים מקיים את דרישות התקנה, לתעד את הבדיקה, ולקיים בקרה תקופתית. אם יש פער, ההחלטה אם להשתמש בכלי היא של המשרד.
+
+- העברת מידע לחו"ל. לפי תקנות הגנת הפרטיות (העברת מידע אל מאגרי מידע שמחוץ לגבולות המדינה), התשס"א-2001, "אין להעביר מידע ממאגר מידע בישראל אל מחוץ לגבולותיה, אלא אם מתקיימים תנאים מסוימים המפורטים בתקנות", וזה חל גם על מאגר שאינו חייב ברישום. הרשות הכירה בדין האיחוד האירופי כמבטיח רמת הגנה מספקת. ארה"ב אינה ברשימה כזו, והרשות עצמה כותבת ש"חשוב לעקוב אחר עדכוני הרשות" בעניין ההעברה לארה"ב. תקנה 3 דורשת בנוסף התחייבות בכתב של המקבל בחו"ל להבטחת פרטיות. כיוון שהצד החוזי שלכם הוא חברה אמריקאית, קביעת בסיס ההעברה (למשל הסכמת נושא המידע לפי תקנה 2, או בסיס אחר) היא החלטה משפטית שהמשרד צריך לקבל ולתעד לפני שמעלים מידע של לקוחות. מקור: שאלות ותשובות של הרשות על העברת מידע לחו"ל (https://www.gov.il/he/departments/general/information_transfer_fqa).
+
+- ממונה על הגנת הפרטיות (DPO). תיקון 13 מחייב מינוי ממונה, בין היתר, אצל "בעל שליטה או מחזיק במאגר מידע שעיסוקו העיקרי כולל עיבוד מידע בעל רגישות מיוחדת בהיקף ניכר". האם משרד עורכי דין מסוים חייב: תלוי בהיקף ובסוג הפעילות, והרשות פרסמה טיוטת גילוי דעת בנושא. בהנחיה שלה על בינה מלאכותית הרשות כתבה שהיא מתכוונת "להקפיד על אכיפת החובה למינוי ממונה על הגנת הפרטיות".
+
+- הנחיית הרשות על בינה מלאכותית. הרשות פרסמה ב-2025 הנחיה (https://www.gov.il/he/pages/ai_234) שלפיה חוק הגנת הפרטיות חל על מערכות בינה מלאכותית ועל תוצריהן, ונדרש "בסיס חוקי כתנאי לעיבוד מידע אישי" בכל שלב, כולל השימוש בפועל. נכון לבדיקתנו ההנחיה פורסמה כטיוטה להערות הציבור, ולכן עוקבים אחרי הנוסח הסופי.
+
+- הסנקציות השתנו. תיקון 13 העניק לרשות סמכות להטיל עיצום כספי "בסכומים משמעותיים ביותר", והפרת חובת הסודיות לפי סעיף 16 לחוק היא עבירה פלילית.
+
+מה נדרש מהמשרד מעבר לחתימה, בשורה אחת לכל פריט:
+
+- מדיניות כתובה: מי רשאי להזין מידע של לקוחות, איזה מידע, ומה מטשטשים או משמיטים תמיד.
+
+- תיעוד ההתקשרות לפי תקנה 15: העותק החתום של ה-DPA, בדיקת הספק, ובקרה תקופתית ביומן.
+
+- החלטה מתועדת על בסיס ההעברה לחו"ל, ועדכון נוסח ההסכמה או ההודעה ללקוחות אם נדרש.
+
+- בדיקה אם המשרד חייב במינוי ממונה על הגנת הפרטיות.
+
+- הרשמה לעדכוני רשימת קבלני המשנה של OpenAI, ומעקב אחרי עדכוני הרשות להגנת הפרטיות.
 
 ### עמדת Legal Mind
 
-בעלי החשבון (Owner) צריכים לקבוע מדיניות משרדית לגבי המשתמשים, למשל מי רשאי להזין מידע, ומי רשאי לחבר Apps.
+בעלי החשבון (Owner) צריכים לקבוע מדיניות משרדית לגבי המשתמשים, למשל מי רשאי להזין מידע, ומי רשאי לחבר Apps. וגם עם DPA חתום: חומר שהמשרד מסווג כסודי במיוחד מטשטשים או משמיטים לפני ההעלאה. הנספח מגן על המידע אצל הספק; הוא לא מחליף את שיקול הדעת של עו"ד לפני הלחיצה על Enter.
 
 ## סעיף 03: כמה עולה המנוי, כמה משתמשים ומי הבעלים
 
@@ -1090,6 +1235,10 @@ Personalization &gt; Custom instructions
 
 - נבחר Owner מטעם המשרד.
 
+- נקראו ההתחייבויות של OpenAI ב-DPA, והוחלט מי במשרד חותם על טופס ה-DPA ומתי (מדריך 1, סעיף 2).
+
+- הוחלט מראש על אחסון גאוגרפי, כי בוחרים אותו רק בזמן הרכישה.
+
 - נבחר מנוי Business מסוג Standard או Premium, בהתאם לצורך.
 
 - נבדקו המחיר ומספר המושבים המינימלי במסך החי.
@@ -1367,13 +1516,126 @@ Legal Mind · כלי עבודה מעשי · פירוט מלא בכל סעיף נ
         <blockquote class="quote-he">"ה-<bdi dir="ltr">DPA</bdi> של <bdi dir="ltr">OpenAI</bdi> משלים את הסכם השירותים של <bdi dir="ltr">OpenAI</bdi> ומשולב בו... בלחיצה על '<bdi dir="ltr">I agree</bdi>', בקבלת טופס ההזמנה או בשימוש בשירותים, הלקוח מסכים להסכם זה."</blockquote>
         <p class="quote-src-label">הנוסח המקורי באנגלית:</p>
         <blockquote class="quote-en" dir="ltr">"This OpenAI Data Processing Addendum ("DPA") supplements, and is incorporated into, the OpenAI Services Agreement... By clicking "I agree," accepting the Order Form, or using the Services, Customer agrees to this Agreement."</blockquote>
-        <p><bdi dir="ltr">OpenAI</bdi> מציעה גם טופס לחתימה על <bdi dir="ltr">DPA</bdi> ללקוחות <bdi dir="ltr">ChatGPT Business</bdi>.</p>
+        <p>ב-<bdi dir="ltr">DPA</bdi> עצמו <bdi dir="ltr">OpenAI</bdi> מגדירה את התפקידים: היא <bdi dir="ltr">Data Processor</bdi>, כלומר מי שמעבד את המידע בשבילכם ולפי ההוראות שלכם, והמשרד הוא הלקוח שקובע מה מזינים ולמה. שימו לב לשלוש התחייבויות שחשובות במיוחד למשרד: הודעה על אירוע אבטחה "ללא דיחוי בלתי סביר" (סעיף 2.7), החזרה או מחיקה של המידע בסיום ההסכם לפי הוראת הלקוח (סעיף 2.11), ואחריות של הלקוח עצמו להגדרות כמו תקופות שמירה ומחיקה (סעיף 3.3).</p>
         <p>ראו את נוסח ה-<bdi dir="ltr">DPA</bdi> המלא <a href="https://openai.com/policies/data-processing-addendum/" target="_blank" rel="noopener">באתר OpenAI</a>. הסבר זה אינו תחליף לקריאת נוסח ה-<bdi dir="ltr">DPA</bdi> המלא.</p>
+
+        <h3 class="h2">האם צריך לחתום, או שזה חל ממילא?</h3>
+        <p>שני הדברים נכונים, וכדאי להבין את ההבדל. לפי הנוסח שציטטנו למעלה, ה-<bdi dir="ltr">DPA</bdi> חל על המשרד כבר מרגע השימוש בשירות. אבל <bdi dir="ltr">OpenAI</bdi> מציעה בנוסף טופס שבו "מבצעים" (<bdi dir="ltr">Execute</bdi>) את ה-<bdi dir="ltr">DPA</bdi>, ובדף הפרטיות העסקית שלה היא כותבת במפורש שהטופס מיועד גם ללקוחות <bdi dir="ltr">ChatGPT Business</bdi>:</p>
+        <blockquote class="quote-he">"כן, אנחנו יכולים לבצע נספח עיבוד נתונים (<bdi dir="ltr">DPA</bdi>) עם לקוחות עבור השימוש שלהם ב-<bdi dir="ltr">ChatGPT Business</bdi>, ב-<bdi dir="ltr">ChatGPT Enterprise</bdi> וב-<bdi dir="ltr">API</bdi>, לתמיכה בעמידתם ב-<bdi dir="ltr">GDPR</bdi> ובחוקי פרטיות אחרים. אנא מלאו את טופס ה-<bdi dir="ltr">DPA</bdi> שלנו כדי לבצע <bdi dir="ltr">DPA</bdi> עם <bdi dir="ltr">OpenAI</bdi>."</blockquote>
+        <p class="quote-src-label">הנוסח המקורי באנגלית:</p>
+        <blockquote class="quote-en" dir="ltr">"Yes, we are able to execute a Data Processing Addendum (DPA) with customers for their use of ChatGPT Business, ChatGPT Enterprise, and the API in support of their compliance with GDPR and other privacy laws. Please complete our DPA form to execute a DPA with OpenAI."</blockquote>
+        <p>מקור: <a href="https://openai.com/enterprise-privacy/" target="_blank" rel="noopener">Enterprise privacy at OpenAI</a>.</p>
+        <div class="callout">
+          <p><strong>עמדת <bdi dir="ltr">Legal Mind</bdi>:</strong> ממלאים את הטופס. <bdi dir="ltr">OpenAI</bdi> לא מסבירה מה ההבדל המעשי בין <bdi dir="ltr">DPA</bdi> שחל מכוח השימוש לבין <bdi dir="ltr">DPA</bdi> שבוצע בטופס, ולכן אנחנו לא נטען דבר על ההבדל הזה. אבל משרד שמילא את הטופס מחזיק עותק חתום, על שם המשרד, עם תאריך ועם שם החותם. זה המסמך שמראים ללקוח, למבקר או לרשות כשנשאלים "על סמך מה מסרתם מידע לספק חיצוני".</p>
+        </div>
+
+        <h3 class="h2">איך חותמים בפועל, צעד אחרי צעד</h3>
+        <p>בתחתית <a href="https://openai.com/policies/data-processing-addendum/" target="_blank" rel="noopener">דף ה-<bdi dir="ltr">DPA</bdi></a> יש קישור בשם <bdi dir="ltr">Execute Data Processing Agreement</bdi>. הוא מוביל לטופס מקוון שמתארח בשירות חתימות חיצוני בשם <bdi dir="ltr">Ironclad</bdi>, שבו <bdi dir="ltr">OpenAI</bdi> משתמשת. אל תיבהלו מהכתובת השונה: זה הטופס שאליו <bdi dir="ltr">OpenAI</bdi> עצמה מקשרת משני הדפים הרשמיים שלה. אין צורך להתחבר לחשבון <bdi dir="ltr">ChatGPT</bdi> כדי לפתוח אותו, אבל צריך את פרטי המשרד.</p>
+        
+        <figure>
+          <div class="shot-frame"><img class="shot-real" src="img/dpa-01-form-top.png?v=20260919a" alt="טופס ה-DPA של OpenAI: החלק העליון"></div>
+          <figcaption>הטופס <bdi dir="ltr">Data Processing Addendum</bdi>, החלק העליון</figcaption>
+        </figure>
+        <ul class="shot-legend"><li><b>1 </b><span>פסקת "<bdi dir="ltr">Note that this agreement is only applicable</bdi>": הטופס חל רק על המוצרים העסקיים. שימו לב שכתוב בו עדיין <bdi dir="ltr">ChatGPT Team</bdi>, השם הישן של <bdi dir="ltr">Business</bdi> (השם שונה ב-29 באוגוסט 2025, לפי <bdi dir="ltr">OpenAI</bdi>). זה אותו מוצר.</span></li><li><b>2 </b><span>פסקת "<bdi dir="ltr">Unfortunately, we are unable</bdi>": <bdi dir="ltr">OpenAI</bdi> מודיעה שאינה בוחנת ואינה חותמת על נוסחי <bdi dir="ltr">DPA</bdi> של לקוחות, ואינה מתאימה את הנוסח שלה פרטנית. על זה בהמשך.</span></li><li><b>3 </b><span><bdi dir="ltr">What is your company's full, legal name?</bdi>: השם המשפטי המלא של המשרד, כפי שהוא רשום, ולא שם המותג.</span></li><li><b>4 </b><span><bdi dir="ltr">Country</bdi>: בוחרים <bdi dir="ltr">Israel</bdi>. שדות הכתובת שמעליו ממולאים בכתובת המשרד.</span></li></ul>
+        
+        <figure>
+          <div class="shot-frame"><img class="shot-real" src="img/dpa-02-form-bottom.png?v=20260919a" alt="טופס ה-DPA של OpenAI: החלק התחתון וכפתור Submit"></div>
+          <figcaption>הטופס <bdi dir="ltr">Data Processing Addendum</bdi>, החלק התחתון</figcaption>
+        </figure>
+        <ul class="shot-legend"><li><b>1 </b><span><bdi dir="ltr">What is your Organization ID?</bdi>: הטופס אומר שהמזהה נמצא ב"<bdi dir="ltr">Organization settings page</bdi>". <bdi dir="ltr">OpenAI</bdi> לא מתעדת איפה מוצאים אותו בסביבת <bdi dir="ltr">Business</bdi> דווקא, ולכן אם לא מצאתם אותו בהגדרות הסביבה, פונים לתמיכה של <bdi dir="ltr">OpenAI</bdi> לפני השליחה, ולא ממציאים.</span></li><li><b>2 </b><span><bdi dir="ltr">Is Customer based in the European Economic Area or Switzerland?</bdi>: משרד ישראלי מסמן <bdi dir="ltr">No</bdi>. המשמעות לפי ה-<bdi dir="ltr">DPA</bdi>: הצד החוזי שלכם הוא <bdi dir="ltr">OpenAI OpCo, LLC</bdi> האמריקאית, ולא <bdi dir="ltr">OpenAI Ireland Ltd.</bdi></span></li><li><b>3 </b><span><bdi dir="ltr">Who will be signing this agreement on behalf of your company?</bdi>: שם של אדם שמוסמך לחייב את המשרד. ה-<bdi dir="ltr">DPA</bdi> כולל הצהרה שלחותם יש סמכות משפטית לחייב את הישות שבשמה הוא חותם.</span></li><li><b>4 </b><span><bdi dir="ltr">What is the signer's email address?</bdi>: לכתובת הזו תישלח בקשה לעיין בהסכם ולאשר אותו. כדאי שזו תהיה כתובת של המשרד ולא כתובת פרטית.</span></li><li><b>5 </b><span><bdi dir="ltr">Submit</bdi>: שולח את הטופס. לפי הטופס עצמו, ההסכם מחייב רק אחרי שהחותם עיין בו ואישר אותו.</span></li></ul>
+        <p>מה קורה אחרי <bdi dir="ltr">Submit</bdi>? הטופס עצמו מסביר:</p>
+        <blockquote class="quote-he">"אחרי שתשלחו את הטופס, תוכלו לעיין בהסכם לפני שתקבלו או תדחו את התנאים. בקשה לעיין בהסכם תישלח גם לכתובת המייל של החותם שמסרתם. ההסכם ייחשב מחייב מבחינה משפטית רק אחרי שקיבלתם את התנאים."</blockquote>
+        <p class="quote-src-label">הנוסח המקורי באנגלית:</p>
+        <blockquote class="quote-en" dir="ltr">"Once you submit this form, you will have the opportunity to review the agreement before accepting or rejecting the terms. A request to review the agreement will also be sent to the signer email address you provided. The agreement will only be considered legally binding after you accepted the terms."</blockquote>
+        <p>אחרי האישור שומרים את העותק החתום בתיק הספקים של המשרד, לצד תאריך החתימה. זה חלק מהתיעוד שהדין הישראלי מצפה ממשרד שמסר מידע לספק חיצוני (ראו בהמשך).</p>
+
+        <h3 class="h2">אפשר לשנות את הנוסח? לא.</h3>
+        <p>זו נקודה שעורכי דין שואלים עליה ראשונה, והתשובה כתובה בטופס עצמו, במילים של <bdi dir="ltr">OpenAI</bdi>:</p>
+        <blockquote class="quote-he">"לצערנו, אין באפשרותנו לבחון או לחתום על נוסחי <bdi dir="ltr">DPA</bdi> שמסופקים על ידי לקוחותינו, או להתאים את ה-<bdi dir="ltr">DPA</bdi> שלנו באופן פרטני."</blockquote>
+        <p class="quote-src-label">הנוסח המקורי באנגלית:</p>
+        <blockquote class="quote-en" dir="ltr">"Unfortunately, we are unable to review or sign DPAs provided by our customers or customize our DPA on a case by case basis."</blockquote>
+        <p>כלומר: לא שולחים ל-<bdi dir="ltr">OpenAI</bdi> את נוסח ה-<bdi dir="ltr">DPA</bdi> של המשרד, ולא מבקשים לתקן סעיף. חותמים על הנוסח שלהם או לא חותמים. מה קורה במסלול <bdi dir="ltr">Enterprise</bdi> מול מחלקת המכירות: המקורות הרשמיים שבדקנו לא אומרים, ולכן לא נכתוב על זה. המדריך הזה עוסק ב-<bdi dir="ltr">Business</bdi>.</p>
+
         <h3 class="h2">אימון מודלים</h3>
-        <p>כברירת מחדל, <bdi dir="ltr">OpenAI</bdi> לא משתמשת במידע של סביבת <bdi dir="ltr">Business</bdi> לאימון המודלים.</p>
+        <p>כברירת מחדל, <bdi dir="ltr">OpenAI</bdi> לא משתמשת במידע של סביבת <bdi dir="ltr">Business</bdi> לאימון המודלים. הנה הנוסח המלא, כולל החריג היחיד:</p>
+        <blockquote class="quote-he">"כברירת מחדל, אנחנו לא משתמשים במידע העסקי שלכם לאימון המודלים שלנו. אם בחרתם במפורש לשתף אתנו את המידע שלכם (למשל, דרך מנגנוני המשוב שדורשים הצטרפות מרצון) כדי לשפר את השירותים שלנו, אז אנחנו עשויים להשתמש במידע ששותף לאימון המודלים שלנו."</blockquote>
+        <p class="quote-src-label">הנוסח המקורי באנגלית:</p>
+        <blockquote class="quote-en" dir="ltr">"By default, we do not use your business data for training our models. If you have explicitly opted in to share your data with us (for example, through our opt-in feedback mechanisms) to improve our services, then we may use the shared data to train our models."</blockquote>
+        <p>מקור: <a href="https://openai.com/enterprise-privacy/" target="_blank" rel="noopener">Enterprise privacy at OpenAI</a>. ובמרכז העזרה, בדף על פרטיות ב-<bdi dir="ltr">Business</bdi>: "<bdi dir="ltr">OpenAI won't train on your workspace's data.</bdi>"</p>
+        <p>מה עם כפתורי המשוב (אגודל למעלה או למטה) ליד תשובה? בחשבונות פרטיים <bdi dir="ltr">OpenAI</bdi> מתעדת שמשוב כזה יכול להעביר את כל השיחה לאימון, גם אחרי שביקשתם שלא יאמנו עליכם. לסביבת <bdi dir="ltr">Business</bdi> אין תיעוד כזה, ולכן אנחנו לא טוענים שזה קורה שם. עמדת <bdi dir="ltr">Legal Mind</bdi> פשוטה: על שיחה שיש בה חומר של לקוח לא לוחצים על כפתורי משוב, ולא משנה באיזה מנוי.</p>
+
+        <h3 class="h2">כמה זמן השיחות נשמרות, ומי שולט בזה</h3>
+        <p>מה שברור: שיחה שמשתמש מחק נעלמת מהחשבון מיד, ונמחקת ממערכות <bdi dir="ltr">OpenAI</bdi> תוך 30 יום, אלא אם החוק דורש לשמור אותה יותר או שהשמירה נדרשת להגנה על השירות. ומה שברור פחות: האם מנהל סביבת <bdi dir="ltr">Business</bdi> יכול לקבוע בעצמו כמה זמן שיחות נשמרות. כאן המקורות של <bdi dir="ltr">OpenAI</bdi> סותרים זה את זה.</p>
+        <h3 class="h2">סתירה במקורות של <bdi dir="ltr">OpenAI</bdi>, <bdi dir="ltr">Legal Mind</bdi> מבררת</h3>
+        <div class="callout experiment">
+          <p>בדף <bdi dir="ltr">Enterprise privacy at OpenAI</bdi>, בשאלות על <bdi dir="ltr">ChatGPT Business</bdi>, כתוב: "<bdi dir="ltr">Your workspace admins can control how long your data is retained.</bdi>" (מנהלי הסביבה שלכם יכולים לשלוט בכמה זמן המידע נשמר).</p>
+          <p>באותו דף, ברשימת ההתחייבויות שבראשו, שליטה בזמן השמירה נמנית רק לשלושה מוצרים: "<bdi dir="ltr">You control how long your data is retained (ChatGPT Enterprise, ChatGPT for Healthcare, ChatGPT Edu)</bdi>". <bdi dir="ltr">Business</bdi> לא ברשימה.</p>
+          <p>ובמרכז העזרה, בדף על שמירת מידע כשמשתמש מוסר מהסביבה, כתוב שב-<bdi dir="ltr">Business</bdi> "<bdi dir="ltr">Chats, files, and canvas documents are retained indefinitely</bdi>" (נשמרים ללא הגבלת זמן), בזמן שמדיניות שמירה מוגדרת (90 או 180 יום) מוזכרת רק ל-<bdi dir="ltr">Enterprise</bdi> ול-<bdi dir="ltr">Edu</bdi>.</p>
+          <p>לכן אנחנו לא כותבים לכם "תקצרו את זמן השמירה בהגדרות", כי לא מצאנו הוראה כזו במקור רשמי. <bdi dir="ltr">Legal Mind</bdi> פנתה לבירור. עד שתהיה תשובה, מה שבידיכם ודאי: כל משתמש יכול למחוק שיחות בעצמו, והמחיקה מהמערכות מתבצעת תוך 30 יום.</p>
+        </div>
+        <p>ומי יכול לראות שיחות בסביבת <bdi dir="ltr">Business</bdi>? לפי <bdi dir="ltr">OpenAI</bdi>: המשתמש עצמו; מנהלי הסביבה, שיכולים לצפות בשיחות של המשתמשים ולמחוק אותן; עובדי <bdi dir="ltr">OpenAI</bdi> מורשים, לצורך תמיכה טכנית, חקירת שימוש לרעה ועמידה בדין; וקבלנים חיצוניים שכפופים לסודיות, אך ורק לבדיקת שימוש לרעה. בנוסף, כל מידע עסקי עשוי לעבור במסננים אוטומטיים של בטיחות. גם כאן יש נקודה שבבירור: הדף העסקי אומר שמנהלי <bdi dir="ltr">Business</bdi> יכולים גם לייצא שיחות (<bdi dir="ltr">export</bdi>), ומרכז העזרה אומר שאין ייצוא נתונים בסביבת <bdi dir="ltr">Business</bdi>. במדריך הזה אנחנו הולכים לפי מרכז העזרה, ומגבים לפני המעבר (מדריך 1, סעיף 5).</p>
+
+        <h3 class="h2"><bdi dir="ltr">ZDR</bdi>: לא רלוונטי ל-<bdi dir="ltr">Business</bdi></h3>
+        <p>בשוק נפוצה האמירה ש"אפשר לבקש מ-<bdi dir="ltr">OpenAI</bdi> אפס שמירת נתונים". צריך לדייק. מדיניות <bdi dir="ltr">Zero Data Retention</bdi> (<bdi dir="ltr">ZDR</bdi>) מתועדת אצל <bdi dir="ltr">OpenAI</bdi> בהקשר של ה-<bdi dir="ltr">API</bdi>, כלומר שימוש דרך ממשק למתכנתים, לנקודות קצה זכאיות ולמקרה שימוש מתאים. ובדף על <bdi dir="ltr">Business</bdi> במרכז העזרה כתוב במפורש:</p>
+        <blockquote class="quote-he">"אם אתם צריכים חיוב בחשבונית, הזמנות רכש, העברה בנקאית, ... <bdi dir="ltr">Zero Data Retention</bdi>, <bdi dir="ltr">BAA</bdi> או אפשרויות אחרות דרך מחלקת המכירות, השתמשו במסלול חוזי במקום ב-<bdi dir="ltr">ChatGPT Business</bdi> בהרשמה עצמית."</blockquote>
+        <p class="quote-src-label">הנוסח המקורי באנגלית:</p>
+        <blockquote class="quote-en" dir="ltr">"If you need invoice billing, purchase orders, bank transfer, wire, ACH, net terms, split payments, Zero Data Retention, BAAs, or other sales-led options, use a contracted offering instead of self-serve ChatGPT Business."</blockquote>
+        <p>מקור: <a href="https://help.openai.com/en/articles/8792828-chatgpt-business-overview" target="_blank" rel="noopener">ChatGPT Business, Overview</a>. המסקנה למשרד: במנוי <bdi dir="ltr">Business</bdi> אין <bdi dir="ltr">ZDR</bdi>, ואל תסתמכו על מי שמבטיח אחרת.</p>
+
+        <h3 class="h2">העברת מידע לחו"ל, קבלני משנה ואחסון גאוגרפי</h3>
+        <p>המידע שאתם מזינים יוצא מישראל. זה לא סוד, וזה מה שהדין הישראלי דורש להסדיר (ראו בהמשך). מה ה-<bdi dir="ltr">DPA</bdi> אומר על זה?</p>
+        <ul class="bullets">
+          <li><strong>הצד החוזי:</strong> ללקוח שאינו באזור הכלכלי האירופי או בשווייץ, ובכלל זה משרד ישראלי, הצד החוזי הוא <bdi dir="ltr">OpenAI OpCo, LLC</bdi>, חברה אמריקאית. הסכם השירותים כפוף לדין קליפורניה.</li>
+          <li><strong>תניות חוזיות סטנדרטיות (<bdi dir="ltr">SCCs</bdi>):</strong> ה-<bdi dir="ltr">DPA</bdi> מחיל אותן על מידע אירופי ושווייצרי (סעיף 4.1) ועל מידע בריטי (סעיף 4.2). על מידע של לקוח ישראלי ה-<bdi dir="ltr">DPA</bdi> לא מחיל תניות כאלה. זו נקודה שהמשרד צריך לקחת בחשבון כשהוא בוחן את בסיס ההעברה לפי הדין הישראלי.</li>
+          <li><strong>קבלני משנה:</strong> <bdi dir="ltr">OpenAI</bdi> מפרסמת <a href="https://platform.openai.com/subprocessors" target="_blank" rel="noopener">רשימת קבלני משנה</a> (נכון לבדיקתנו, עודכנה ב-9 ביולי 2026). לצד <bdi dir="ltr">ChatGPT Business</bdi> מופיעים, בין היתר, ספקי ענן כמו <bdi dir="ltr">Microsoft</bdi>, <bdi dir="ltr">Google Cloud</bdi>, <bdi dir="ltr">Amazon Web Services</bdi> ו-<bdi dir="ltr">Oracle</bdi>, במדינות רבות, וספקי תמיכה ומודרציה, בהם <bdi dir="ltr">TaskUs</bdi> בפיליפינים. לפי ה-<bdi dir="ltr">DPA</bdi> (סעיף 2.9), <bdi dir="ltr">OpenAI</bdi> מודיעה על שינוי ברשימה בפוסט בבלוג, בהודעה בתוך השירות, או במייל למי שנרשם לעדכונים בדף הרשימה, ולמשרד יש 30 יום להתנגד. המלצת <bdi dir="ltr">Legal Mind</bdi>: מי שאחראי במשרד נרשם לעדכונים במייל, כי אחרת לא תדעו על שינוי.</li>
+          <li><strong>אחסון גאוגרפי (<bdi dir="ltr">Data residency</bdi>):</strong> לפי מרכז העזרה, <bdi dir="ltr">ChatGPT Business</bdi> מאפשר לבחור איפה יישמר תוכן הסביבה, אבל האפשרות "מופצת בהדרגה ועדיין לא זמינה לכל הלקוחות", והבחירה נעשית <strong>רק בזמן הרכישה</strong> (<bdi dir="ltr">checkout</bdi>). גם כשבוחרים אזור מחוץ לארה"ב, יומני הניטור נשמרים בארה"ב, ועותק זמני של כל שיחה נשמר בארה"ב לצורכי בטיחות. האזור גם לא קובע איפה מתבצע העיבוד עצמו. אילו אזורים מוצעים, ואם ישראל ביניהם: לא מתועד, ולכן בודקים במסך הרכישה. המשמעות המעשית: את ההחלטה על אחסון גאוגרפי מקבלים <strong>לפני</strong> שלוחצים על רכישה במדריך 2, ולא אחרי. מקור: <a href="https://help.openai.com/en/articles/20001418-where-your-chatgpt-business-content-is-stored" target="_blank" rel="noopener">Where your ChatGPT Business content is stored</a>.</li>
+        </ul>
+
+        <h3 class="h2">מה לא מקבלים ב-<bdi dir="ltr">Business</bdi></h3>
+        <p>מדריך הגון אומר גם מה אין. אלה יכולות שלפי <bdi dir="ltr">OpenAI</bdi> שמורות למסלולים חוזיים, בעיקר <bdi dir="ltr">Enterprise</bdi>:</p>
+        <div class="tbl-wrap">
+          <table class="tbl">
+            <thead><tr><th>מה חסר ב-<bdi dir="ltr">Business</bdi></th><th>מה <bdi dir="ltr">OpenAI</bdi> כותבת</th></tr></thead>
+            <tbody>
+              <tr><td><bdi dir="ltr">Compliance API</bdi> ויומן ביקורת של שיחות</td><td>"<bdi dir="ltr">The Compliance Platform is available to ChatGPT Enterprise and Edu workspaces.</bdi>"</td></tr>
+              <tr><td>מדיניות שמירה בזמן קצוב (למשל 90 או 180 יום)</td><td>מתועדת ל-<bdi dir="ltr">Enterprise</bdi> ול-<bdi dir="ltr">Edu</bdi>; ב-<bdi dir="ltr">Business</bdi> שיחות של משתמש שהוסר נשמרות ללא הגבלה (ראו הסתירה למעלה)</td></tr>
+              <tr><td>כיבוי גורף של קישורי שיתוף לכל הסביבה</td><td>"<bdi dir="ltr">Can I disable shared links entirely? No. This feature is available in ChatGPT Enterprise.</bdi>"</td></tr>
+              <tr><td>ייצוא נתונים עצמי מהסביבה</td><td>"<bdi dir="ltr">Self-service data export is not available in ChatGPT Business workspaces.</bdi>"</td></tr>
+              <tr><td><bdi dir="ltr">ZDR</bdi>, <bdi dir="ltr">BAA</bdi>, חיוב בחשבונית, הזמנת רכש</td><td>"<bdi dir="ltr">use a contracted offering instead of self-serve ChatGPT Business</bdi>"</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>מקורות: <a href="https://help.openai.com/en/articles/9261474-compliance-api-for-enterprise-customers" target="_blank" rel="noopener">OpenAI Compliance Platform</a>, <a href="https://help.openai.com/en/articles/8798634-managing-data-sharing-and-privacy-in-chatgpt-business" target="_blank" rel="noopener">Managing data, sharing, and privacy in ChatGPT Business</a>, <a href="https://help.openai.com/en/articles/8542115-chatgpt-business-general-faq" target="_blank" rel="noopener">ChatGPT Business: General FAQ</a>.</p>
+
+        <h3 class="h2">ההתאמה לדין הישראלי: מה ה-<bdi dir="ltr">DPA</bdi> לא עושה בשבילכם</h3>
+        
+        <figure class="image-placeholder draft-pending">
+          <div class="image-placeholder__box"><strong>טיוטה: ממתין</strong><span>נוסח הסעיף הזה נמסר לאישור המערכת המשפטית של Legal Mind. עד האישור הוא טיוטה.</span></div>
+        </figure>
+        <p>חתימה על <bdi dir="ltr">DPA</bdi> היא תנאי, לא פתרון. הנספח מסדיר את ההתחייבויות של <bdi dir="ltr">OpenAI</bdi> כלפיכם. את החובות של המשרד עצמו לפי חוק הגנת הפרטיות הוא לא מקיים בשבילכם. הסבר זה כללי ואינו ייעוץ משפטי; המקורות הם פרסומי <a href="https://www.gov.il/he/pages/tikun13_qa" target="_blank" rel="noopener">הרשות להגנת הפרטיות</a>.</p>
+        <ul class="bullets">
+          <li><strong>מי אתם ומי <bdi dir="ltr">OpenAI</bdi> לפי תיקון 13.</strong> תיקון 13 לחוק הגנת הפרטיות, שבתוקף מאז אוגוסט 2025, מגדיר "בעל שליטה במאגר מידע" כ"מי שקובע, לבדו או יחד עם אחר, את מטרות עיבוד המידע שבמאגר המידע". זה המשרד. "מחזיק" הוא "גורם חיצוני לבעל השליטה במאגר מידע המעבד מידע עבורו". זו <bdi dir="ltr">OpenAI</bdi>. ו"עיבוד" כולל במפורש "העברתו, מסירתו או מתן גישה אליו", כלומר גם הדבקת מסמך בשיחה.</li>
+          <li><strong>מידע בעל רגישות מיוחדת.</strong> ההגדרה החדשה כוללת, בין היתר, "מידע שחלה עליו חובת סודיות שנקבעה בדין", לצד מידע על בריאות, עבר פלילי, פעילות פיננסית וצנעת המשפחה. חלק ניכר ממה שמשרד עורכי דין מטפל בו נופל בקטגוריות האלה, ולכן כללי הזהירות במדריך הזה (טשטוש והשמטה של פרטים מזהים לפני העלאה) אינם המלצה בלבד.</li>
+          <li><strong>תקנה 15 לתקנות אבטחת מידע.</strong> התקנה מסדירה התקשרות של ארגון עם "כל גורם חיצוני ... המספק לארגון שירות הכרוך במתן גישה למאגר המידע שלו". הרשות פרסמה <a href="https://www.gov.il/he/pages/guide_section_15" target="_blank" rel="noopener">מדריך פעולה</a> שמפרט מה חייב להיכלל בהסכם עם הספק, שאלון לבדיקת הספק לפני ההתקשרות, ושאלון לבקרה תקופתית. ה-<bdi dir="ltr">DPA</bdi> של <bdi dir="ltr">OpenAI</bdi> אינו ניתן לשינוי, ולכן העבודה של המשרד היא לבדוק אם הנוסח הקיים מקיים את דרישות התקנה, לתעד את הבדיקה, ולקיים בקרה תקופתית. אם יש פער, ההחלטה אם להשתמש בכלי היא של המשרד.</li>
+          <li><strong>העברת מידע לחו"ל.</strong> לפי תקנות הגנת הפרטיות (העברת מידע אל מאגרי מידע שמחוץ לגבולות המדינה), התשס"א-2001, "אין להעביר מידע ממאגר מידע בישראל אל מחוץ לגבולותיה, אלא אם מתקיימים תנאים מסוימים המפורטים בתקנות", וזה חל גם על מאגר שאינו חייב ברישום. הרשות הכירה בדין האיחוד האירופי כמבטיח רמת הגנה מספקת. ארה"ב אינה ברשימה כזו, והרשות עצמה כותבת ש"חשוב לעקוב אחר עדכוני הרשות" בעניין ההעברה לארה"ב. תקנה 3 דורשת בנוסף התחייבות בכתב של המקבל בחו"ל להבטחת פרטיות. כיוון שהצד החוזי שלכם הוא חברה אמריקאית, קביעת בסיס ההעברה (למשל הסכמת נושא המידע לפי תקנה 2, או בסיס אחר) היא החלטה משפטית שהמשרד צריך לקבל ולתעד לפני שמעלים מידע של לקוחות. מקור: <a href="https://www.gov.il/he/departments/general/information_transfer_fqa" target="_blank" rel="noopener">שאלות ותשובות של הרשות על העברת מידע לחו"ל</a>.</li>
+          <li><strong>ממונה על הגנת הפרטיות (<bdi dir="ltr">DPO</bdi>).</strong> תיקון 13 מחייב מינוי ממונה, בין היתר, אצל "בעל שליטה או מחזיק במאגר מידע שעיסוקו העיקרי כולל עיבוד מידע בעל רגישות מיוחדת בהיקף ניכר". האם משרד עורכי דין מסוים חייב: תלוי בהיקף ובסוג הפעילות, והרשות פרסמה טיוטת גילוי דעת בנושא. בהנחיה שלה על בינה מלאכותית הרשות כתבה שהיא מתכוונת "להקפיד על אכיפת החובה למינוי ממונה על הגנת הפרטיות".</li>
+          <li><strong>הנחיית הרשות על בינה מלאכותית.</strong> הרשות פרסמה ב-2025 <a href="https://www.gov.il/he/pages/ai_234" target="_blank" rel="noopener">הנחיה</a> שלפיה חוק הגנת הפרטיות חל על מערכות בינה מלאכותית ועל תוצריהן, ונדרש "בסיס חוקי כתנאי לעיבוד מידע אישי" בכל שלב, כולל השימוש בפועל. נכון לבדיקתנו ההנחיה פורסמה כטיוטה להערות הציבור, ולכן עוקבים אחרי הנוסח הסופי.</li>
+          <li><strong>הסנקציות השתנו.</strong> תיקון 13 העניק לרשות סמכות להטיל עיצום כספי "בסכומים משמעותיים ביותר", והפרת חובת הסודיות לפי סעיף 16 לחוק היא עבירה פלילית.</li>
+        </ul>
+        <div class="callout">
+          <p><strong>מה נדרש מהמשרד מעבר לחתימה, בשורה אחת לכל פריט:</strong></p>
+          <ul class="bullets">
+            <li>מדיניות כתובה: מי רשאי להזין מידע של לקוחות, איזה מידע, ומה מטשטשים או משמיטים תמיד.</li>
+            <li>תיעוד ההתקשרות לפי תקנה 15: העותק החתום של ה-<bdi dir="ltr">DPA</bdi>, בדיקת הספק, ובקרה תקופתית ביומן.</li>
+            <li>החלטה מתועדת על בסיס ההעברה לחו"ל, ועדכון נוסח ההסכמה או ההודעה ללקוחות אם נדרש.</li>
+            <li>בדיקה אם המשרד חייב במינוי ממונה על הגנת הפרטיות.</li>
+            <li>הרשמה לעדכוני רשימת קבלני המשנה של <bdi dir="ltr">OpenAI</bdi>, ומעקב אחרי עדכוני הרשות להגנת הפרטיות.</li>
+          </ul>
+        </div>
+
         <h3 class="h2">עמדת <bdi dir="ltr">Legal Mind</bdi></h3>
         <div class="callout">
-          <p>בעלי החשבון <bdi dir="ltr">(Owner)</bdi> צריכים לקבוע מדיניות משרדית לגבי המשתמשים, למשל מי רשאי להזין מידע, ומי רשאי לחבר <bdi dir="ltr">Apps</bdi>.</p>
+          <p>בעלי החשבון <bdi dir="ltr">(Owner)</bdi> צריכים לקבוע מדיניות משרדית לגבי המשתמשים, למשל מי רשאי להזין מידע, ומי רשאי לחבר <bdi dir="ltr">Apps</bdi>. וגם עם <bdi dir="ltr">DPA</bdi> חתום: חומר שהמשרד מסווג כסודי במיוחד מטשטשים או משמיטים לפני ההעלאה. הנספח מגן על המידע אצל הספק; הוא לא מחליף את שיקול הדעת של עו"ד לפני הלחיצה על <bdi dir="ltr">Enter</bdi>.</p>
         </div>
       </div>
     </section>
@@ -1425,33 +1687,33 @@ Legal Mind · כלי עבודה מעשי · פירוט מלא בכל סעיף נ
         <p><code dir="ltr">Settings &gt; Data controls &gt; Export data</code></p>
         
         <figure>
-          <div class="shot-frame"><img class="shot-real" src="img/cg1-01-menu-settings.png?v=20260915d" alt="תפריט החשבון, השורה Settings"></div>
+          <div class="shot-frame"><img class="shot-real" src="img/cg1-01-menu-settings.png?v=20260919a" alt="תפריט החשבון, השורה Settings"></div>
           <figcaption>לחצו על <bdi dir="ltr">Settings</bdi> בתפריט החשבון.</figcaption>
         </figure>
         <ul class="shot-legend"><li><b>1 </b><span><bdi dir="ltr">Settings</bdi>: פותח את חלון ההגדרות של החשבון.</span></li></ul>
         
         <figure>
-          <div class="shot-frame"><img class="shot-real" src="img/cg1-02-data-controls-export.png?v=20260915d" alt="Settings > Data controls, הכפתור Export"></div>
+          <div class="shot-frame"><img class="shot-real" src="img/cg1-02-data-controls-export.png?v=20260919a" alt="Settings > Data controls, הכפתור Export"></div>
           <figcaption><bdi dir="ltr">Settings &gt; Data controls</bdi></figcaption>
         </figure>
         <ul class="shot-legend"><li><b>1 </b><span>לשונית <bdi dir="ltr">Data controls</bdi>.</span></li><li><b>2 </b><span><bdi dir="ltr">Export</bdi>: לחיצה עליו מבקשת ייצוא של נתוני החשבון.</span></li></ul>
         <p>לחצו על <bdi dir="ltr">Export</bdi>, ובמסך האישור לחצו על <bdi dir="ltr">Confirm export</bdi> כדי לבקש ייצוא של נתוני החשבון.</p>
         
         <figure>
-          <div class="shot-frame"><img class="shot-real" src="img/cg1-03-confirm-export.png?v=20260915d" alt="חלון האישור Request data export"></div>
+          <div class="shot-frame"><img class="shot-real" src="img/cg1-03-confirm-export.png?v=20260919a" alt="חלון האישור Request data export"></div>
           <figcaption><bdi dir="ltr">Request data export</bdi></figcaption>
         </figure>
         <ul class="shot-legend"><li><b>1 </b><span>רשימת הפרטים: מה ייכלל בייצוא, לאן יישלח ולכמה זמן הקישור תקף.</span></li><li><b>2 </b><span><bdi dir="ltr">Confirm export</bdi>: שולח את הבקשה. הלחיצה לא מוחקת ולא משנה דבר בחשבון.</span></li></ul>
         
         <figure>
-          <div class="shot-frame"><img class="shot-real" src="img/cg1-04-export-requested.png?v=20260915d" alt="הודעה ירוקה: הבקשה התקבלה"></div>
+          <div class="shot-frame"><img class="shot-real" src="img/cg1-04-export-requested.png?v=20260919a" alt="הודעה ירוקה: הבקשה התקבלה"></div>
           <figcaption>הבקשה התקבלה</figcaption>
         </figure>
         <ul class="shot-legend"><li><b>1 </b><span>ההודעה הירוקה: הבקשה נקלטה, והפרטים יישלחו במייל. הקובץ עצמו עוד לא נשלח.</span></li></ul>
         <p>כשהייצוא מוכן מתקבלת הודעה בדוא"ל (או ב-<bdi dir="ltr">SMS</bdi> בחשבון שרשום רק עם מספר טלפון). ההודעה יכולה להגיע עד 7 ימים אחרי הבקשה. הקישור תקף ל-24 שעות מרגע קבלתו, ודורש שהמשתמש יהיה מחובר לאותו חשבון.</p>
         
         <figure>
-          <div class="shot-frame"><img class="shot-real" src="img/cg1-06-export-started-email.png?v=20260915d" alt="מייל: הכנת הייצוא התחילה"></div>
+          <div class="shot-frame"><img class="shot-real" src="img/cg1-06-export-started-email.png?v=20260919a" alt="מייל: הכנת הייצוא התחילה"></div>
           <figcaption>המייל הראשון מ-<bdi dir="ltr">OpenAI</bdi></figcaption>
         </figure>
         <ul class="shot-legend"><li><b>1 </b><span>כותרת המייל: הכנת הייצוא התחילה.</span></li><li><b>2 </b><span>ההכנה עשויה להימשך כמה ימים. מייל נוסף יישלח כשהקובץ יהיה מוכן להורדה.</span></li></ul>
@@ -1472,7 +1734,7 @@ Legal Mind · כלי עבודה מעשי · פירוט מלא בכל סעיף נ
         <p>כשהייצוא מוכן מגיע מייל שני מ-<bdi dir="ltr">OpenAI</bdi>. לחצו בו על <bdi dir="ltr">Download data export</bdi>, כשאתם מחוברים ל-<bdi dir="ltr">ChatGPT</bdi> באותו חשבון שביקש את הייצוא.</p>
         
         <figure>
-          <div class="shot-frame"><img class="shot-real" src="img/cg1-08-export-ready-email.png?v=20260915d" alt="מייל: קובץ הייצוא מוכן, עם הכפתור Download data export"></div>
+          <div class="shot-frame"><img class="shot-real" src="img/cg1-08-export-ready-email.png?v=20260919a" alt="מייל: קובץ הייצוא מוכן, עם הכפתור Download data export"></div>
           <figcaption>המייל השני מ-<bdi dir="ltr">OpenAI</bdi></figcaption>
         </figure>
         <ul class="shot-legend"><li><b>1 </b><span>כותרת המייל: קובץ הייצוא מוכן.</span></li><li><b>2 </b><span><bdi dir="ltr">Download data export</bdi>: מוריד את קובץ הגיבוי. הקישור תקף ל-24 שעות.</span></li></ul>
@@ -1509,13 +1771,13 @@ Legal Mind · כלי עבודה מעשי · פירוט מלא בכל סעיף נ
         <p>את ההנחיות האישיות הקבועות רואים תחת <bdi dir="ltr">Personalization</bdi>. הן נכללות בקובץ ה-<bdi dir="ltr">Export</bdi>, אבל כדאי גם להעתיק אותן לקובץ נפרד, כדי להדביק אותן מחדש ב-<bdi dir="ltr">Business</bdi>.</p>
         
         <figure>
-          <div class="shot-frame"><img class="shot-real" src="img/cg1-05-menu-personalization.png?v=20260915d" alt="תפריט החשבון, השורה Personalization"></div>
+          <div class="shot-frame"><img class="shot-real" src="img/cg1-05-menu-personalization.png?v=20260919a" alt="תפריט החשבון, השורה Personalization"></div>
           <figcaption>לחצו על <bdi dir="ltr">Personalization</bdi> בתפריט החשבון.</figcaption>
         </figure>
         <ul class="shot-legend"><li><b>1 </b><span><bdi dir="ltr">Personalization</bdi>: פותח את חלון ההתאמה האישית.</span></li></ul>
         
         <figure>
-          <div class="shot-frame"><img class="shot-real" src="img/cg1-07-custom-instructions.png?v=20260915d" alt="תיבת Custom instructions" data-full-src="img/cg1-07-full-personalization.png?v=20260915d"></div>
+          <div class="shot-frame"><img class="shot-real" src="img/cg1-07-custom-instructions.png?v=20260919a" alt="תיבת Custom instructions" data-full-src="img/cg1-07-full-personalization.png?v=20260919a"></div>
           <figcaption><bdi dir="ltr">Personalization &gt; Custom instructions</bdi></figcaption>
         </figure>
         <ul class="shot-legend"><li><b>1 </b><span><bdi dir="ltr">Custom instructions</bdi>: ההנחיות הקבועות שלכם. מעתיקים את כל הטקסט ושומרים בקובץ נפרד.</span></li></ul>
@@ -1523,25 +1785,25 @@ Legal Mind · כלי עבודה מעשי · פירוט מלא בכל סעיף נ
         <p>קבצים שהעליתם לפרויקט אפשר להוריד אחד אחד מתוך רשימת המקורות <bdi dir="ltr">(Sources)</bdi> של הפרויקט. לפני המעבר, הורידו את הקבצים החשובים ושמרו אותם בתיקיית הגיבוי.</p>
         
         <figure>
-          <div class="shot-frame"><img class="shot-real" src="img/cg1-08-projects-plus.png?v=20260915d" alt="הסרגל הצדדי, הסימן + ליד Projects"></div>
+          <div class="shot-frame"><img class="shot-real" src="img/cg1-08-projects-plus.png?v=20260919a" alt="הסרגל הצדדי, הסימן + ליד Projects"></div>
           <figcaption>פתיחת פרויקט חדש (שמות השיחות טושטשו, לשמירה על פרטיות)</figcaption>
         </figure>
         <ul class="shot-legend"><li><b>1 </b><span>הסימן <bdi dir="ltr">+</bdi> ליד <bdi dir="ltr">Projects</bdi>: פותח פרויקט חדש.</span></li></ul>
         
         <figure>
-          <div class="shot-frame"><img class="shot-real" src="img/cg1-09-sources-add.png?v=20260915d" alt="פרויקט, הלשונית Sources והכפתור Add sources"></div>
+          <div class="shot-frame"><img class="shot-real" src="img/cg1-09-sources-add.png?v=20260919a" alt="פרויקט, הלשונית Sources והכפתור Add sources"></div>
           <figcaption><bdi dir="ltr">Project &gt; Sources</bdi></figcaption>
         </figure>
         <ul class="shot-legend"><li><b>1 </b><span>לשונית <bdi dir="ltr">Sources</bdi> בתוך הפרויקט.</span></li><li><b>2 </b><span><bdi dir="ltr">Add sources</bdi>: הוספת קבצים לפרויקט.</span></li></ul>
         
         <figure>
-          <div class="shot-frame"><img class="shot-real" src="img/cg1-10-upload.png?v=20260915d" alt="חלון Add sources, האפשרות Upload"></div>
+          <div class="shot-frame"><img class="shot-real" src="img/cg1-10-upload.png?v=20260919a" alt="חלון Add sources, האפשרות Upload"></div>
           <figcaption><bdi dir="ltr">Add sources</bdi></figcaption>
         </figure>
         <ul class="shot-legend"><li><b>1 </b><span><bdi dir="ltr">Upload</bdi>: בחירת קובץ מהמחשב והעלאתו לפרויקט.</span></li><li><b>2 </b><span>אזור הגרירה: אפשר גם לגרור קובץ ישירות לכאן.</span></li></ul>
         
         <figure>
-          <div class="shot-frame"><img class="shot-real" src="img/cg1-11-download.png?v=20260915d" alt="קובץ ברשימת Sources, תפריט עם Download"></div>
+          <div class="shot-frame"><img class="shot-real" src="img/cg1-11-download.png?v=20260919a" alt="קובץ ברשימת Sources, תפריט עם Download"></div>
           <figcaption>הורדת קובץ מתוך הפרויקט</figcaption>
         </figure>
         <ul class="shot-legend"><li><b>1 </b><span>שלוש הנקודות ליד שם הקובץ: פותחות את תפריט הקובץ.</span></li><li><b>2 </b><span><bdi dir="ltr">Download</bdi>: הקובץ יורד מיד לתיקיית ההורדות, בלי חלון נוסף.</span></li></ul>
